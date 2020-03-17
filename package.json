@@ -1,0 +1,16 @@
+{
+  "name": "MobProject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/F-Sotomayor/MobilitysProject.git",
+  "author": "F-Sotomayor <facundosotomayor95@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
+  }
+
+}

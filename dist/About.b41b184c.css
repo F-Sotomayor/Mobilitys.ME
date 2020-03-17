@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.aboutpage {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 130vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.aboutpage .bg-img {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -2;
+}
+.aboutpage .firstcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-top: 10%;
+}
+.aboutpage .firstcontainer .title1 {
+  color: #e0dada;
+}
+.aboutpage .firstcontainer .title1 span {
+  color: orange;
+}
+.aboutpage .firstcontainer .par1 p {
+  color: #e0dada;
+  font-size: 20px;
+}
+.aboutpage .secondcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-top: 10%;
+}
+.aboutpage .secondcontainer .title2 {
+  color: #e0dada;
+}
+.aboutpage .secondcontainer .title2 span {
+  color: orange;
+}
+.aboutpage .secondcontainer .par2 p {
+  color: #e0dada;
+  font-size: 20px;
+}
+.aboutpage .thirdcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-top: 10%;
+}
+.aboutpage .thirdcontainer .title3 {
+  color: #e0dada;
+}
+.aboutpage .thirdcontainer .title3 span {
+  color: orange;
+}
+.aboutpage .thirdcontainer .par3 p {
+  color: #e0dada;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=/About.b41b184c.css.map */
