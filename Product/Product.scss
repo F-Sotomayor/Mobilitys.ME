@@ -15,12 +15,12 @@
     .bg-img {
         position: absolute;
         z-index: -2;
-        height: 400vh;
+        height: 600vh;
         object-fit: cover;
         filter: brightness(60%);
 
         img {
-            height: 400vh;
+            height: 600vh;
         }
     }
 
@@ -105,5 +105,77 @@
         width: 90%;
         margin-left: 5%;
         height: 100vh;
+    }
+    .img-container2 {
+        margin-top: 10%;
+        width: 95%;
+        margin-left: 2.5%;
+        height: 120vh;
+        display: flex;
+        .text-container {
+            flex: 1;
+            width: 50%;
+            height: 110%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .main-title {
+                display: flex;
+                color: goldenrod;
+                font-size: 20px;
+            }
+            .category1 {
+                color: goldenrod;
+                font-size: 24px;
+            }
+            .benefits1 {
+                color: rgb(224, 218, 218);
+                font-size: 18px;
+            }
+            .category2 {
+                color: goldenrod;
+                font-size: 24px;
+            }
+            .benefits2 {
+                color: rgb(224, 218, 218);
+                font-size: 18px;
+            }
+            .category3 {
+                color: goldenrod;
+                font-size: 24px;
+            }
+            .benefits3 {
+                color: rgb(224, 218, 218);
+                font-size: 18px;
+            }
+        }
+        .images-cont2 {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            height: 120%;
+            align-items: center;
+            .first {
+                display: flex;
+                height: 55%;
+                img {
+                    height: 90%;
+                    opacity: 0.8;
+                    box-shadow: 0px 4px 25px #000000;
+                    filter: brightness(90%);
+                }
+            }
+            .sec {
+                display: flex;
+                height: 55%;
+                img {
+                    height: 90%;
+                    opacity: 0.8;
+                    box-shadow: 0px 4px 25px #000000;
+                    filter: brightness(90%);
+                }
+            }
+        }
     }
 }
