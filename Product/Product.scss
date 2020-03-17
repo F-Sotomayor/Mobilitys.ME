@@ -4,10 +4,106 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 .product-page {
     position: absolute;
     left: 0;
-    top: 325%;
+    top: 298vh;
     width: 100%;
-    height: 100%;
+    height: 400%;
+
+    .bg-img {
+        position: absolute;
+        z-index: -2;
+        height: 400vh;
+        object-fit: cover;
+        filter: brightness(60%);
+
+        img {
+            height: 400vh;
+        }
+    }
+
+    .product-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        flex: 1;
+        margin-left: 30%;
+        margin-top: 5%;
+
+        h1 {
+            font-size: 60px;
+            color: goldenrod;
+        }
+
+        p {
+            color: rgb(224, 218, 218);
+            font-size: 20px;
+        }
+    }
+
+    .img-container1 {
+        display: flex;
+        margin-top: 5%;
+        width: 100%;
+        justify-content: center;
+
+        .img1 {
+            display: flex;
+            justify-content: center;
+            flex: 1;
+            width: 30%;
+            height: 70vh;
+
+            img {
+                border-radius: 50%;
+                height: 70vh;
+                width: 70%;
+                opacity: 0.8;
+                box-shadow: 0px 4px 25px #000000;
+                filter: brightness(90%);
+            }
+        }
+
+        .img2 {
+            display: flex;
+            justify-content: center;
+            flex: 1;
+            width: 30%;
+            height: 70vh;
+
+            img {
+                border-radius: 50%;
+                height: 70vh;
+                width: 70%;
+                opacity: 0.8;
+                box-shadow: 0px 4px 25px #000000;
+                filter: brightness(90%);
+            }
+        }
+    }
+
+    .img3 {
+        margin-top: 10%;
+        width: 90%;
+        height: 100vh;
+        margin-left: auto;
+
+        img {
+            width: 90%;
+            height: 100vh;
+            opacity: 0.8;
+            box-shadow: 0px 4px 25px #000000;
+            filter: brightness(90%);
+        }
+    }
+    .video {
+        margin-top: 5%;
+        border: 2px solid white;
+        width: 90%;
+        margin-left: 5%;
+        height: 100vh;
+    }
 }
