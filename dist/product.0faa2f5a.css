@@ -11,6 +11,8 @@
   top: 298vh;
   width: 100%;
   height: 610%;
+  background-image: url("/bg-product.7b1ef02e.jpg");
+  background-attachment: fixed;
 }
 .product-page .bg-img {
   position: absolute;

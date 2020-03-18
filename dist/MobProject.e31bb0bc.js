@@ -119,24 +119,21 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   return newRequire;
 })({"index.js":[function(require,module,exports) {
 var carouselSlide = document.querySelector(".carousel-slide");
-var carouselImages = document.querySelectorAll(".carousel-slide img");
+var carouselImages = document.querySelectorAll(".carousel-slide > div");
 var preBtn = document.getElementById("btnPrev");
 var nextBtn = document.getElementById("btnNext");
 var spanTitle = document.getElementById("dynamicSpanTitle");
 var title = document.getElementById("dynamicTitle");
 var counter = 0;
-var size = carouselImages[0].clientWidth;
 nextBtn.addEventListener("click", function () {
-  if (counter > 1) return;
-  carouselSlide.style.transition = "transform 0.4s ease-in-out";
+  if (counter >= carouselImages.length - 1) return;
   counter++;
-  carouselSlide.style.transform = 'translateX(' + -size * counter + 'px';
+  carouselSlide.style.transform = "translateX(-".concat(counter, "00vw)");
 });
 preBtn.addEventListener("click", function () {
-  if (counter < 1) return;
-  carouselSlide.style.transition = "transform 0.4s ease-in-out";
+  if (counter <= 0) return;
   counter--;
-  carouselSlide.style.transform = 'translateX(' + -size * counter + 'px';
+  carouselSlide.style.transform = "translateX(-".concat(counter, "00vw)");
 });
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -166,7 +163,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63732" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50446" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

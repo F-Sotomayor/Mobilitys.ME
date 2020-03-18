@@ -1,5 +1,5 @@
 const carouselSlide = document.querySelector(".carousel-slide");
-const carouselImages = document.querySelectorAll(".carousel-slide img");
+const carouselImages = document.querySelectorAll(".carousel-slide > div");
 
 const preBtn = document.getElementById("btnPrev");
 const nextBtn = document.getElementById("btnNext");
@@ -8,17 +8,16 @@ const title = document.getElementById("dynamicTitle");
 
 let counter = 0;
 
-const size = carouselImages[0].clientWidth;
-
 nextBtn.addEventListener("click", ()=> {
-    if (counter>1) return;
-carouselSlide.style.transition = "transform 0.4s ease-in-out";
-counter++;
-carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px';
+    if (counter >= carouselImages.length - 1) return;
+    
+    counter++;
+    carouselSlide.style.transform = `translateX(-${counter}00vw)`;
 });
+
 preBtn.addEventListener("click", ()=> {
-    if (counter<1) return;
-    carouselSlide.style.transition = "transform 0.4s ease-in-out";
+    if (counter <= 0) return;
+
     counter--;
-    carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px';
-    });
+    carouselSlide.style.transform = `translateX(-${counter}00vw)`;
+});
