@@ -13,9 +13,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 40%;
+        width: 100%;
         flex: 1;
-        margin-left: 30%;
+        justify-content: center;
 
         h1 {
             font-size: 60px;
@@ -25,6 +25,7 @@
         p {
             color: rgb(224, 218, 218);
             font-size: 20px;
+            width: 50%;
         }
     }
 
@@ -93,16 +94,16 @@
     }
 
     .img-container2 {
-        margin-top: 10%;
         width: 95%;
+        margin-top: 5%;
         margin-left: 2.5%;
-        height: 120vh;
+        height: 175vh;
         display: flex;
 
         .text-container {
             flex: 1;
             width: 50%;
-            height: 110%;
+            height: 90%;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
@@ -115,32 +116,32 @@
 
             .category1 {
                 color: goldenrod;
-                font-size: 24px;
+                font-size: 28px;
             }
 
             .benefits1 {
                 color: rgb(224, 218, 218);
-                font-size: 18px;
+                font-size: 22px;
             }
 
             .category2 {
                 color: goldenrod;
-                font-size: 24px;
+                font-size: 28px;
             }
 
             .benefits2 {
                 color: rgb(224, 218, 218);
-                font-size: 18px;
+                font-size: 22px;
             }
 
             .category3 {
                 color: goldenrod;
-                font-size: 24px;
+                font-size: 28px;
             }
 
             .benefits3 {
                 color: rgb(224, 218, 218);
-                font-size: 18px;
+                font-size: 22px;
             }
         }
 
@@ -149,40 +150,48 @@
             display: flex;
             flex-direction: column;
             width: 50%;
-            height: 120%;
+            height: 100%;
             align-items: center;
+            justify-content: center;
 
             .first {
                 display: flex;
                 height: 55%;
+                flex: 1;
+                width: 70%;
 
                 img {
-                    height: 90%;
+                    display: flex;
+                     height: 90%;
                     opacity: 0.8;
                     box-shadow: 0px 4px 25px #000000;
                     filter: brightness(90%);
+                    width: 100%;
+                    object-fit: cover;
                 }
             }
 
             .sec {
                 display: flex;
                 height: 55%;
+                flex: 1;
+                width: 70%;
 
                 img {
                     height: 90%;
                     opacity: 0.8;
+                    width: 100%;
                     box-shadow: 0px 4px 25px #000000;
                     filter: brightness(90%);
+                    object-fit: cover;
                 }
             }
         }
     }
 
     .bottom-image {
-        margin-top: 15%;
         display: flex;
         width: 100%;
-        margin-left: 2.5%;
         height: 70vh;
         justify-content: space-around;
 
@@ -212,39 +221,88 @@
             }
         }
     }
+
     .buy-section {
         display: flex;
         flex-direction: column;
+        height: 80vh;
+        margin-top: 10%;
+        background-color: rgb(20, 20, 20);
+        align-items: center;
+
         .box {
-            width: 80%;
-            height: 50%;
-            margin-left: 10%;
+            margin-top: 6%;
+            width: 60%;
+            height: 100%;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
+            align-items: flex-start;
+            justify-content: center;
+
             .buy-title {
                 color: goldenrod;
+                font-size: 60px;
             }
+
             .product-title2 {
-                color: goldenrod;
+                color: rgb(218, 218, 218);
+                font-size: 48px;
+                align-self: flex-start;
             }
+
             .prod-desc {
-                color: goldenrod;
+                color: rgb(197, 197, 197);
             }
+
             .buy-btn {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
-                width: 25%;
+                width: 70%;
+                height: 80%;
+                margin-top: 5%;
+
                 .price {
-                    button {
-                        color: red;
-                    }
-                }
-                .acquire {
+                    height: 40%;
+                    width: 40%;
                     button {
                         color: goldenrod;
+                        height: 100%;
+                        width: 100%;
+                        background-color: black;
+                        span {
+                            font-size: 30px;
+                        }
+                    }
+                    &:hover {
+                        button {
+                            background-color: rgb(194, 194, 194);
+                            border-color: goldenrod;
+                            filter: blur(50%);
+                            color: black;
+                        }
+                    }
+                }
+
+                .acquire {
+                    height: 40%;
+                    width: 40%;
+                    button {
+                        height: 100%;
+                        width: 100%;
+                        color: goldenrod;
+                        background-color: black;
+                        span {
+                            font-size: 30px;
+                        }
+                    }
+                    &:hover {
+                        button {
+                            background-color: rgb(194, 194, 194);
+                            border-color: goldenrod;
+                            filter: blur(50%);
+                            color: black;
+                        }
                     }
                 }
             }
