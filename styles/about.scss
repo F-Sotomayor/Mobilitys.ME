@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .aboutpage {
+    padding: 36px 200px 36px 200px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -16,17 +17,13 @@
 
     article {
         text-align: center;
-
-        &:not(:last-child) {
-            margin-bottom: 32px;
-        }
     }
 
     .firstcontainer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
+        text-align: center;
         .title1 {
             color: rgb(224, 218, 218);
             span {
@@ -44,7 +41,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
         .title2 {
             color: rgb(224, 218, 218);
             span {
@@ -62,7 +58,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
         .title3 {
             color: rgb(224, 218, 218);
             span {
@@ -76,4 +71,9 @@
             }
         }
     }
+    }
+    @media (max-width: 900px) {
+        .aboutpage {
+            padding: 18px 75px 18px 75px;
+        }
     }
