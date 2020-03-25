@@ -78,17 +78,18 @@ body {
     }
 }
 .sliderInfo {
+    padding: 90px;
     display: flex;
     flex-direction: column;
-    height: 80%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    text-align: left;
     .buttonSlider {
-        width: 40%;
         height: 72px;
         .btn {
-            width: 250px;
+            padding: 0 20px;
             height: 72px;
             border-radius: 50px;
             background: rgba(24, 23, 23, 0.911);
@@ -98,14 +99,12 @@ body {
             span {
                 color: rgb(224, 218, 218);
                 font-size: 20px;
-                margin-left: 30px;
                 font-weight: bold;
             }
         }
     }
     .descriptionSlider {
         display: flex;
-        width: 100%;
         height: 72px;
         align-items: center;
         flex-direction: column;
@@ -134,16 +133,15 @@ body {
 .sliderInfo2 {
     display: flex;
     flex-direction: column;
-    height: 80%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     justify-content: center;
     align-items: center;
     .buttonSlider {
-        width: 40%;
         height: 72px;
         .btn {
-            width: 250px;
             height: 72px;
+            padding: 0 20px;
             border-radius: 50px;
             background: rgba(24, 23, 23, 0.911);
             display: flex;
@@ -152,14 +150,12 @@ body {
             span {
                 color: rgb(224, 218, 218);
                 font-size: 20px;
-                margin-left: 30px;
                 font-weight: bold;
             }
         }
     }
     .descriptionSlider {
         display: flex;
-        width: 100%;
         height: 72px;
         align-items: center;
         flex-direction: column;
@@ -188,32 +184,29 @@ body {
 .sliderInfo3 {
     display: flex;
     flex-direction: column;
-    height: 80%;
-    width: 50%;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     .buttonSlider {
-        width: 40%;
         height: 72px;
         .btn {
-            width: 250px;
             height: 72px;
             border-radius: 50px;
             background: rgba(24, 23, 23, 0.911);
             display: flex;
+            padding: 0 20px;
                 align-items: center;
                 justify-self: center;
             span {
                 color: rgb(224, 218, 218);
                 font-size: 20px;
-                margin-left: 30px;
                 font-weight: bold;
             }
         }
     }
     .descriptionSlider {
         display: flex;
-        width: 100%;
         height: 72px;
         align-items: center;
         flex-direction: column;
@@ -238,4 +231,10 @@ body {
         }
     }
     
+}
+@media (max-width: 900px) {
+    .sliderInfo {
+        align-items: center;
+        text-align: center;
+    }
 }
