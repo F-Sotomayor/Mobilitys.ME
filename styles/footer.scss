@@ -94,3 +94,45 @@ a {
     }
     
 }
+@media (max-width: 730px) {
+    .footer {
+        height: auto;
+        padding: 12px 6px 12px 6px;
+        .footer-container{
+            .contact-bar {
+                width: auto;
+                margin-right: 40px;
+                #contact {
+                    font-size: 12px;
+                }
+                #phone {
+                    margin-top: 20px;
+                }
+                #mail {
+                    margin-top: 20px;
+                    span {
+                        
+                        font-size: 12px;
+                    }
+                }
+            }
+            .medias-bar {
+                #medias-title {
+                    text-align: center;
+                }
+                #medias {
+                    flex-direction: column;
+                    #insta {
+                        font-size: 40px;
+                    }
+                    #face {
+                        font-size: 40px;
+                    }
+                    #gmail {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
