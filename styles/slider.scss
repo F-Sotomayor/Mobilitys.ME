@@ -235,6 +235,7 @@ body {
     
 }
 @media (max-width: 900px) {
+    
     .sliderInfo {
         align-items: center;
         text-align: center;
@@ -249,6 +250,7 @@ body {
     }
 }
 @media (max-width: 730px) {
+    
     .sliderInfo {
         padding: 90px;
         display: flex;
@@ -295,6 +297,7 @@ body {
             justify-content: flex-start;
             height: auto;
             font-size: 24px;
+            line-height: 50px;
             h1 {
                 color: rgb(224, 218, 218);
                 span {
@@ -315,7 +318,7 @@ body {
         
         .buttonSlider {
             height: 72px;
-            padding: 46px 0 24px 0;
+            padding: 0px 0 24px 0;
             .btn {
                 padding: 0 20px;
                 height: 72px;
@@ -349,6 +352,7 @@ body {
             justify-content: flex-start;
             height: auto;
             font-size: 24px;
+            line-height: 50px;
             h1 {
                 color: rgb(224, 218, 218);
                 span {
@@ -403,6 +407,7 @@ body {
             justify-content: flex-start;
             height: auto;
             font-size: 24px;
+            line-height: 50px;
             h1 {
                 color: rgb(224, 218, 218);
                 span {
@@ -411,4 +416,59 @@ body {
             }
         }
     }                  
+}
+@media (max-width: 730px) {
+    .carousel-slide {
+        display: flex;
+        width: 300vw;
+        height:100%;
+        flex: 1;
+        transition: transform 0.4s ease-in-out;
+        
+        .imgbox1 {
+            display: flex;
+            flex: 1;
+            width: 100vw;
+            background-image: url("../images/indexreplace.jpg");
+            background-size: cover;
+            background-position: center;
+            img {
+                display: flex;
+                height:100%;
+                flex: 1;
+                object-fit: cover;
+            }
+        }
+        .imgbox2 {
+            width: 100vw;
+            display: flex;
+            flex: 1;
+            height:100%;
+            background-image: url("../images/index2.jpg");
+            background-size: cover;
+            background-position: center;
+            img {
+                display: flex;
+                flex: 1;
+                height:100%;
+                object-fit: cover;
+            }
+        }
+        .imgbox3 {
+            display: flex;
+            width: 100vw;
+            flex: 1;
+            height:100%;
+            background-image: url("../images/rep3.jpg");
+            background-size: fit;
+            background-position: left;
+            img {
+                display: flex;
+                width: 100vw;
+                height:100%;
+                object-fit: cover;
+                
+            }
+        }
+    }
 }

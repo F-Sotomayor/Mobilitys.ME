@@ -97,11 +97,11 @@ a {
 @media (max-width: 730px) {
     .footer {
         height: auto;
-        padding: 12px 6px 12px 6px;
+        padding: 12px 24px 12px 24px;
         .footer-container{
             .contact-bar {
-                width: auto;
-                margin-right: 40px;
+                width: 250px;
+                height: auto;
                 #contact {
                     font-size: 12px;
                 }
@@ -111,7 +111,7 @@ a {
                 #mail {
                     margin-top: 20px;
                     span {
-                        
+                        width: auto;
                         font-size: 12px;
                     }
                 }

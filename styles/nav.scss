@@ -50,11 +50,14 @@ a {
         .containerNav {
             padding: 12px 0 12px 0;
             flex-direction: column;
-            height: 35vh;
+            height: 45vh;
             align-items: center;
             background-color: rgba(7, 7, 7, 0.918);
         }
         .nav-items {
             flex-direction: column;
+            a {
+                padding: 12px;
+            }
         }
     }
