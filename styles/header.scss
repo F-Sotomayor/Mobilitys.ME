@@ -62,8 +62,9 @@ a {
         height: auto;
         color:  rgb(224, 218, 218);
         .language {
-            display: flex;
+            display: none;
             margin-right: 10px;
+
                 a {
                     display: flex;
                     justify-content: center;
