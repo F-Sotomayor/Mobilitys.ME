@@ -8,6 +8,9 @@
 .product-page {
     background-image: url("../images/bg-product.jpg");
     background-attachment: fixed;
+    li {
+        list-style: none;
+    }
 
     .product-title {
         display: flex;
@@ -302,10 +305,11 @@
     
 
                         span {
-                            font-size: 30px;
+                            font-size: 50px;
                             width: 100%;
                             a {
                                 width: 100%;
+                                letter-spacing: 10px;
                                 height: 100%;
                             }
                         }
@@ -313,7 +317,6 @@
 
                     &:hover {
                         button {
-                            background-color: rgb(194, 194, 194);
                             border-color: goldenrod;
                             filter: blur(50%);
                             color: black;
