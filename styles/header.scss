@@ -14,6 +14,9 @@ a {
         text-decoration: none;
     }
 }
+@-ms-viewport{
+    width: device-width;
+  }
 
 .container {
     padding: 0 24px;
@@ -123,3 +126,6 @@ a {
         display: none;
     }
 }
+@-ms-viewport{
+    width: device-width;
+  }
