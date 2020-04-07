@@ -97,16 +97,24 @@ a {
 @media (max-width: 730px) {
     .footer {
         height: auto;
-        padding: 12px 24px 12px 24px;
+        padding: 12px 24px 12px 12px;
         .footer-container{
             .contact-bar {
                 width: 250px;
-                height: auto;
+                flex:6;
+                text-align: left;
                 #contact {
                     font-size: 12px;
+                    flex: 3;
                 }
                 #phone {
                     margin-top: 20px;
+                    flex: 3;
+                    span {
+                        a {
+                            color: #c9c9c9;
+                        }
+                    }
                 }
                 #mail {
                     margin-top: 20px;
@@ -117,8 +125,11 @@ a {
                 }
             }
             .medias-bar {
+                height: 100%;
+                flex: 1;
+                justify-content: space-around;
                 #medias-title {
-                    text-align: center;
+                    display: none;
                 }
                 #medias {
                     flex-direction: column;

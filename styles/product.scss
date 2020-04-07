@@ -125,6 +125,9 @@
             .benefits1 {
                 color: rgb(224, 218, 218);
                 font-size: 22px;
+                li {
+                    list-style: circle;
+                }
             }
 
             .category2 {
@@ -135,6 +138,9 @@
             .benefits2 {
                 color: rgb(224, 218, 218);
                 font-size: 22px;
+                li {
+                    list-style: circle;
+                }
             }
 
             .category3 {
@@ -145,6 +151,9 @@
             .benefits3 {
                 color: rgb(224, 218, 218);
                 font-size: 22px;
+                li {
+                    list-style: circle;
+                }
             }
         }
 
@@ -370,6 +379,7 @@
 
 @media (max-width: 730px) {
     .product-page {
+        
         .product-title {
             p {
                 font-size: 16px;
@@ -413,14 +423,23 @@
                 }
                 .benefits1 {
                     font-size: 16px;
+                    li {
+                        list-style: circle;
+                    }
                 }
 
                 .benefits2 {
                     font-size: 16px;
+                    li {
+                        list-style: circle;
+                    }
                 }
 
                 .benefits3 {
                     font-size: 16px;
+                    li {
+                        list-style: circle;
+                    }
                 }
             }
 
