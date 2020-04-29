@@ -110,6 +110,12 @@
   font-size: 20px;
 }
 
+@media only screen and (min-height: 1300px) {
+  .aboutpage {
+    padding: 400px 200px 36px 200px;
+  }
+}
+
 @media (max-width: 900px) {
   .aboutpage {
     padding: 18px 75px 18px 75px;
@@ -206,12 +212,6 @@
 
 @-ms-viewport {
   width: device-width;
-}
-
-@media (min-height: 1300px) {
-  .aboutpage {
-    padding: 300px 200px;
-  }
 }
 
 * {
