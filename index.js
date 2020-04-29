@@ -9,6 +9,8 @@ const prod1 = document.getElementById("btn1");
 const prod2 = document.getElementById("btn2");
 const prod3 = document.getElementById("btn3");
 const buy = document.getElementById("buy");
+const image1 = document.getElementById("img1")
+const image2 = document.getElementById("img2")
 // SCROLLS TO
 const homeSlide = document.querySelector('.carousel-slide')
 const aboutSlide = document.querySelector(".aboutpage")
@@ -74,5 +76,11 @@ navBtnHome.addEventListener("click", handleClickHome);
 navBtnAbout.addEventListener("click", handleClickAbout);
 navBtnProduct.addEventListener("click", handleClickProduct);
 navBtnContact.addEventListener("click", handleClickContact);
+
+function handleHover(e) {
+    image1.style.scale = 1.5;
+}
+
+image1.addEventListener("mouseenter", handleHover)
 
 

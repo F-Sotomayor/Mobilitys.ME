@@ -59,6 +59,7 @@
 }
 
 .product-page .img-container1 .img1 {
+  margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,16 +73,26 @@
 
 .product-page .img-container1 .img1 img {
   border-radius: 50%;
-  width: 85%;
-  height: 85%;
+  width: 45%;
+  height: 65%;
   opacity: 0.8;
   -webkit-box-shadow: 0px 4px 25px #000000;
           box-shadow: 0px 4px 25px #000000;
   -webkit-filter: brightness(90%);
           filter: brightness(90%);
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.product-page .img-container1 .img1 img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .product-page .img-container1 .img2 {
+  margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,13 +106,22 @@
 
 .product-page .img-container1 .img2 img {
   border-radius: 50%;
-  width: 85%;
-  height: 85%;
+  width: 45%;
+  height: 65%;
   opacity: 0.8;
   -webkit-box-shadow: 0px 4px 25px #000000;
           box-shadow: 0px 4px 25px #000000;
   -webkit-filter: brightness(90%);
           filter: brightness(90%);
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.product-page .img-container1 .img2 img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .product-page .img3 {
@@ -115,8 +135,8 @@
   width: 90%;
   height: 100vh;
   opacity: 0.8;
-  -webkit-box-shadow: 0px 4px 25px #000000;
-          box-shadow: 0px 4px 25px #000000;
+  -webkit-box-shadow: 0px 0px 6px 9px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 6px 9px rgba(0, 0, 0, 0.75);
   -webkit-filter: brightness(90%);
           filter: brightness(90%);
 }
@@ -248,8 +268,8 @@
   display: flex;
   height: 90%;
   opacity: 0.8;
-  -webkit-box-shadow: 0px 4px 25px #000000;
-          box-shadow: 0px 4px 25px #000000;
+  -webkit-box-shadow: 0px 0px 6px 9px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 6px 9px rgba(0, 0, 0, 0.75);
   -webkit-filter: brightness(90%);
           filter: brightness(90%);
   width: 100%;
@@ -272,8 +292,8 @@
   height: 90%;
   opacity: 0.8;
   width: 100%;
-  -webkit-box-shadow: 0px 4px 25px #000000;
-          box-shadow: 0px 4px 25px #000000;
+  -webkit-box-shadow: 0px 0px 6px 9px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 6px 9px rgba(0, 0, 0, 0.75);
   -webkit-filter: brightness(90%);
           filter: brightness(90%);
   -o-object-fit: cover;
@@ -301,8 +321,8 @@
 .product-page .bottom-image .leftone img {
   width: 90%;
   height: 100%;
-  -webkit-box-shadow: 0px 4px 25px #000000;
-          box-shadow: 0px 4px 25px #000000;
+  -webkit-box-shadow: 0px 0px 6px 9px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 6px 9px rgba(0, 0, 0, 0.75);
   -webkit-filter: brightness(90%);
           filter: brightness(90%);
 }
@@ -317,8 +337,8 @@
 .product-page .bottom-image .rightone img {
   width: 100%;
   height: 100%;
-  -webkit-box-shadow: 0px 4px 25px #000000;
-          box-shadow: 0px 4px 25px #000000;
+  -webkit-box-shadow: 0px 0px 6px 9px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 6px 9px rgba(0, 0, 0, 0.75);
   -webkit-filter: brightness(90%);
           filter: brightness(90%);
 }
@@ -366,12 +386,14 @@
 }
 
 .product-page .buy-section .box .product-title2 {
+  margin-top: 15px;
   color: #dadada;
   font-size: 48px;
   width: 100%;
 }
 
 .product-page .buy-section .box .prod-desc {
+  margin-top: 15px;
   color: #c5c5c5;
   width: 100%;
 }
@@ -388,7 +410,8 @@
       justify-content: space-around;
   width: 100%;
   height: 125px;
-  padding: 24px 72px 16px 72px;
+  margin-top: 15px;
+  padding: 24px 144px 16px 144px;
 }
 
 .product-page .buy-section .box .buy-btn .price {
@@ -571,16 +594,16 @@
     height: auto;
   }
   .product-page .buy-section .box .buy-title {
-    font-size: 28px;
+    font-size: 24px;
   }
   .product-page .buy-section .box .product-title2 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .product-page .buy-section .box .prod-desc p {
     font-size: 16px;
   }
   .product-page .buy-section .box .buy-btn {
-    padding: 100px 6px 100px 6px;
+    padding: 24px 6px 24px 6px;
   }
   .product-page .buy-section .box .buy-btn .price {
     margin-right: 12px;

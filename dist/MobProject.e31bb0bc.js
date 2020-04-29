@@ -128,7 +128,9 @@ var navBtnContact = document.getElementById("btn-contact");
 var prod1 = document.getElementById("btn1");
 var prod2 = document.getElementById("btn2");
 var prod3 = document.getElementById("btn3");
-var buy = document.getElementById("buy"); // SCROLLS TO
+var buy = document.getElementById("buy");
+var image1 = document.getElementById("img1");
+var image2 = document.getElementById("img2"); // SCROLLS TO
 
 var homeSlide = document.querySelector('.carousel-slide');
 var aboutSlide = document.querySelector(".aboutpage");
@@ -202,6 +204,12 @@ navBtnHome.addEventListener("click", handleClickHome);
 navBtnAbout.addEventListener("click", handleClickAbout);
 navBtnProduct.addEventListener("click", handleClickProduct);
 navBtnContact.addEventListener("click", handleClickContact);
+
+function handleHover(e) {
+  image1.style.scale = 1.5;
+}
+
+image1.addEventListener("mouseenter", handleHover);
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';

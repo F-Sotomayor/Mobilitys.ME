@@ -148,3 +148,8 @@
     @-ms-viewport{
         width: device-width;
       }
+      @media (min-height: 1300px) {
+      .aboutpage {
+        padding: 300px 200px;
+      }
+    }
