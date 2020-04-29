@@ -119,11 +119,28 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   return newRequire;
 })({"index.js":[function(require,module,exports) {
 var carouselSlide = document.querySelector(".carousel-slide");
-var carouselImages = document.querySelectorAll(".carousel-slide > div");
+var carouselImages = document.querySelectorAll(".carousel-slide > div"); // NAV BUTTONS
+
+var navBtnHome = document.getElementById("btn-home");
+var navBtnAbout = document.getElementById("btn-about");
+var navBtnProduct = document.getElementById("btn-product");
+var navBtnContact = document.getElementById("btn-contact"); // SCROLLS TO
+
+var homeSlide = document.querySelector('.carousel-slide');
+var aboutSlide = document.querySelector(".aboutpage");
+var productSlide = document.querySelector(".product-page");
+var contactSlide = document.querySelector(".footer");
+var homeContainer = document.querySelector(".carousel-slide");
 var preBtn = document.getElementById("btnPrev");
 var nextBtn = document.getElementById("btnNext");
 var spanTitle = document.getElementById("dynamicSpanTitle");
 var title = document.getElementById("dynamicTitle");
+var test1 = document.querySelector(".container");
+var test2 = document.querySelector(".containerNav");
+console.log(test1.clientHeight);
+console.log(test2.clientHeight);
+test3 = test1.clientHeight + test2.clientHeight;
+console.log(test3);
 var counter = 0;
 nextBtn.addEventListener("click", function () {
   if (counter >= carouselImages.length - 1) return;
@@ -135,6 +152,43 @@ preBtn.addEventListener("click", function () {
   counter--;
   carouselSlide.style.transform = "translateX(-".concat(counter, "00vw)");
 });
+
+function handleClickHome(e) {
+  homeSlide.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+    inline: "nearest"
+  });
+}
+
+function handleClickAbout(e) {
+  aboutSlide.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+    inline: "nearest"
+  });
+}
+
+function handleClickProduct(e) {
+  productSlide.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+    inline: "nearest"
+  });
+}
+
+function handleClickContact(e) {
+  contactSlide.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+    inline: "nearest"
+  });
+}
+
+navBtnHome.addEventListener("click", handleClickHome);
+navBtnAbout.addEventListener("click", handleClickAbout);
+navBtnProduct.addEventListener("click", handleClickProduct);
+navBtnContact.addEventListener("click", handleClickContact);
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -163,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57068" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64650" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
