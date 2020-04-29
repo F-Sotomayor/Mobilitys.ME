@@ -231,6 +231,7 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: fixed;
   top: 5vh;
   z-index: 10;
   background-color: rgba(36, 36, 36, 0.918);
@@ -339,6 +340,7 @@ a:hover {
 }
 
 .product-page .product-title {
+  padding-top: 75px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -893,16 +895,16 @@ a:hover {
     height: auto;
   }
   .product-page .buy-section .box .buy-title {
-    font-size: 24px;
+    font-size: 28px;
   }
   .product-page .buy-section .box .product-title2 {
-    font-size: 20px;
+    font-size: 24px;
   }
   .product-page .buy-section .box .prod-desc p {
     font-size: 16px;
   }
   .product-page .buy-section .box .buy-btn {
-    padding: 24px 6px 24px 6px;
+    padding: 100px 6px 100px 6px;
   }
   .product-page .buy-section .box .buy-btn .price {
     margin-right: 12px;
@@ -2174,6 +2176,7 @@ a:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #111111;
+  position: fixed;
   z-index: 10;
 }
 

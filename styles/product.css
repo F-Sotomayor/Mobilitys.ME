@@ -16,6 +16,7 @@
 }
 
 .product-page .product-title {
+  padding-top: 75px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -570,16 +571,16 @@
     height: auto;
   }
   .product-page .buy-section .box .buy-title {
-    font-size: 24px;
+    font-size: 28px;
   }
   .product-page .buy-section .box .product-title2 {
-    font-size: 20px;
+    font-size: 24px;
   }
   .product-page .buy-section .box .prod-desc p {
     font-size: 16px;
   }
   .product-page .buy-section .box .buy-btn {
-    padding: 24px 6px 24px 6px;
+    padding: 100px 6px 100px 6px;
   }
   .product-page .buy-section .box .buy-btn .price {
     margin-right: 12px;

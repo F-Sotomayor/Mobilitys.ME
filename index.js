@@ -5,6 +5,10 @@ const navBtnHome = document.getElementById("btn-home")
 const navBtnAbout = document.getElementById("btn-about")
 const navBtnProduct = document.getElementById("btn-product")
 const navBtnContact = document.getElementById("btn-contact")
+const prod1 = document.getElementById("btn1");
+const prod2 = document.getElementById("btn2");
+const prod3 = document.getElementById("btn3");
+const buy = document.getElementById("buy");
 // SCROLLS TO
 const homeSlide = document.querySelector('.carousel-slide')
 const aboutSlide = document.querySelector(".aboutpage")
@@ -29,6 +33,15 @@ console.log(test3)
 
 
 let counter = 0;
+
+prod1.addEventListener("click",handleClickProduct);
+prod2.addEventListener("click",handleClickProduct);
+prod3.addEventListener("click",handleClickProduct);
+
+function handleBuy(e) {
+    window.location.href = "https://articulo.mercadolibre.com.ar/MLA-846092775-led-trainer-entrenamiento-led-marca-mobilitys-me-_JM"
+}
+buy.addEventListener("click", handleBuy)
 
 nextBtn.addEventListener("click", ()=> {
     if (counter >= carouselImages.length - 1) return;

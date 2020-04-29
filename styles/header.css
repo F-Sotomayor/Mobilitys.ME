@@ -34,6 +34,7 @@ a:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #111111;
+  position: fixed;
   z-index: 10;
 }
 

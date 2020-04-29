@@ -124,7 +124,11 @@ var carouselImages = document.querySelectorAll(".carousel-slide > div"); // NAV 
 var navBtnHome = document.getElementById("btn-home");
 var navBtnAbout = document.getElementById("btn-about");
 var navBtnProduct = document.getElementById("btn-product");
-var navBtnContact = document.getElementById("btn-contact"); // SCROLLS TO
+var navBtnContact = document.getElementById("btn-contact");
+var prod1 = document.getElementById("btn1");
+var prod2 = document.getElementById("btn2");
+var prod3 = document.getElementById("btn3");
+var buy = document.getElementById("buy"); // SCROLLS TO
 
 var homeSlide = document.querySelector('.carousel-slide');
 var aboutSlide = document.querySelector(".aboutpage");
@@ -142,6 +146,15 @@ console.log(test2.clientHeight);
 test3 = test1.clientHeight + test2.clientHeight;
 console.log(test3);
 var counter = 0;
+prod1.addEventListener("click", handleClickProduct);
+prod2.addEventListener("click", handleClickProduct);
+prod3.addEventListener("click", handleClickProduct);
+
+function handleBuy(e) {
+  window.location.href = "https://articulo.mercadolibre.com.ar/MLA-846092775-led-trainer-entrenamiento-led-marca-mobilitys-me-_JM";
+}
+
+buy.addEventListener("click", handleBuy);
 nextBtn.addEventListener("click", function () {
   if (counter >= carouselImages.length - 1) return;
   counter++;
@@ -217,7 +230,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64650" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51560" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
