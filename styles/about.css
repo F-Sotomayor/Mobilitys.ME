@@ -110,6 +110,12 @@
   font-size: 20px;
 }
 
+@media (min-height: 1200px) and (min-width: 1200px) {
+  .aboutpage {
+    padding: 300px 200px;
+  }
+}
+
 @media (max-width: 900px) and (max-height: 1000px) {
   .aboutpage {
     padding: 18px 75px 18px 75px;
@@ -206,11 +212,5 @@
 
 @-ms-viewport {
   width: device-width;
-}
-
-@media (min-width: 1400px) {
-  .aboutpage {
-    padding: 300px 200px;
-  }
 }
 /*# sourceMappingURL=about.css.map */
