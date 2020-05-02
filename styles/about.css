@@ -7,7 +7,7 @@
 }
 
 .aboutpage {
-  padding: 100px 200px 36px 200px;
+  padding: 300px 200px 36px 200px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -212,5 +212,11 @@
 
 @-ms-viewport {
   width: device-width;
+}
+
+@media (max-height: 770px) and (min-width: 1000px) {
+  .aboutpage {
+    padding: 100px 200px 36px 200px;
+  }
 }
 /*# sourceMappingURL=about.css.map */
