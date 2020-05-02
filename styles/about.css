@@ -208,96 +208,9 @@
   width: device-width;
 }
 
-@media (min-height: 1300px) and (min-width: 1400px) {
+@media (min-width: 1400px) {
   .aboutpage {
-    padding: 400px 100px 36px 200px;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    background-image: url("../images/about1.jpg");
-    background-attachment: fixed;
-    height: 125vh;
-  }
-  .aboutpage article {
-    text-align: center;
-  }
-  .aboutpage .firstcontainer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-  }
-  .aboutpage .firstcontainer .title1 {
-    color: #e0dada;
-  }
-  .aboutpage .firstcontainer .title1 span {
-    color: orange;
-  }
-  .aboutpage .firstcontainer .par1 p {
-    color: #e0dada;
-    font-size: 20px;
-  }
-  .aboutpage .secondcontainer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .aboutpage .secondcontainer .title2 {
-    color: #e0dada;
-  }
-  .aboutpage .secondcontainer .title2 span {
-    color: orange;
-  }
-  .aboutpage .secondcontainer .par2 p {
-    color: #e0dada;
-    font-size: 20px;
-  }
-  .aboutpage .thirdcontainer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .aboutpage .thirdcontainer .title3 {
-    color: #e0dada;
-  }
-  .aboutpage .thirdcontainer .title3 span {
-    color: orange;
-  }
-  .aboutpage .thirdcontainer .par3 p {
-    color: #e0dada;
-    font-size: 20px;
+    padding: 300px 200px;
   }
 }
 /*# sourceMappingURL=about.css.map */

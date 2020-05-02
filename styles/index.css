@@ -110,12 +110,6 @@
   font-size: 20px;
 }
 
-@media only screen and (min-height: 725px) {
-  .aboutpage {
-    padding: 200px 200px;
-  }
-}
-
 @media (max-width: 900px) {
   .aboutpage {
     padding: 18px 75px 18px 75px;

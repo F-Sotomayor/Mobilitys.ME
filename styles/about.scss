@@ -175,84 +175,8 @@
 @-ms-viewport {
     width: device-width;
 }
-@media (min-height: 1300px) and (min-width: 1400px) {
+@media (min-width: 1400px) {
     .aboutpage {
-        padding: 300px 100px 36px 200px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        background-image: url("../images/about1.jpg");
-        background-attachment: fixed;
-        height: 125vh;
-    
-        article {
-            text-align: center;
-        }
-    
-        .firstcontainer {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-    
-            .title1 {
-                color: rgb(224, 218, 218);
-    
-                span {
-                    color: orange;
-                }
-            }
-    
-            .par1 {
-                p {
-                    color: rgb(224, 218, 218);
-                    font-size: 20px;
-                }
-            }
-        }
-    
-        .secondcontainer {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-    
-            .title2 {
-                color: rgb(224, 218, 218);
-    
-                span {
-                    color: orange;
-                }
-            }
-    
-            .par2 {
-                p {
-                    color: rgb(224, 218, 218);
-                    font-size: 20px;
-                }
-            }
-        }
-    
-        .thirdcontainer {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-    
-            .title3 {
-                color: rgb(224, 218, 218);
-    
-                span {
-                    color: orange;
-                }
-            }
-    
-            .par3 {
-                p {
-                    color: rgb(224, 218, 218);
-                    font-size: 20px;
-                }
-            }
-        }
+        padding: 300px 200px;
     }
 }
