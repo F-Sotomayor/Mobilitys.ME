@@ -645,7 +645,7 @@
   }
 }
 
-@media (min-width: 1300px) and (min-height: 1000px) {
+@media (min-width: 1300px) and (min-height: 800px) {
   .product-page .product-title h1 {
     font-size: 72px;
   }
@@ -656,17 +656,26 @@
   .buy-section .box {
     height: 100vh;
   }
+  .buy-section .box .buy-title {
+    margin-bottom: 60px;
+  }
   .buy-section .box .buy-title span {
-    font-size: 124px;
-    margin-bottom: 24px;
+    font-size: 144px;
+  }
+  .buy-section .box .product-title2 {
+    margin-bottom: 64px;
   }
   .buy-section .box .product-title2 span {
-    font-size: 60px;
-    margin-bottom: 24px;
+    font-size: 100px;
+  }
+  .buy-section .box .prod-desc {
+    margin-bottom: 70px;
   }
   .buy-section .box .prod-desc p {
-    font-size: 60px;
-    margin-bottom: 50px;
+    font-size: 80px;
+  }
+  .buy-section .box .buy-btn .acquire button span a {
+    font-size: auto;
   }
 }
 /*# sourceMappingURL=product.css.map */
