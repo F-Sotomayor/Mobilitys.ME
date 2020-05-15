@@ -120,7 +120,7 @@
         .text-container {
             flex: 1;
             width: 50%;
-            height: 90%;
+            height: 100%;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
@@ -562,30 +562,42 @@
                 font-size: 40px;
             }
         }
+        .text-container {
+            background-color: rgba(0, 0, 0, 0.815);
+            padding-left: 5%;
+            height: 100%;
+        }
+        .images-cont2 {
+            .sec {
+                align-items: flex-end;
+            }
+        }
     }
     .buy-section {
         .box {
             height: 100vh;
             .buy-title {
-                margin-bottom: 60px;
+                margin-bottom: 40px;
                 span {
-                    font-size: 144px;
+                    font-size: 70px;
                 }
             }
             .product-title2 {
-                margin-bottom: 64px;
+                margin-bottom: 44px;
                 span {
-                    font-size: 100px;
+                    font-size: 60px;
                 }
             }
             .prod-desc {
-                margin-bottom: 70px;
+                margin-bottom: 40px;
                 p {
-                    font-size: 80px;
+                    font-size: 30px;
                 }
             }
             .buy-btn {
                 .acquire {
+                    padding-left: 200px;
+                    padding-right: 200px;
                     button {
                         span {
                             a {
