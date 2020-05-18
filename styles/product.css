@@ -179,6 +179,9 @@
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.815);
+  padding-left: 5%;
+  height: 100%;
 }
 
 .product-page .img-container2 .text-container .main-title {
@@ -299,6 +302,8 @@
           filter: brightness(90%);
   -o-object-fit: cover;
      object-fit: cover;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .product-page .bottom-image {
@@ -544,9 +549,14 @@
   .product-page .img-container2 {
     height: auto;
     width: 100%;
+    padding: 0;
   }
   .product-page .img-container2 li {
     list-style: square;
+  }
+  .product-page .img-container2 .text-container {
+    padding-left: 36px;
+    padding-bottom: 36px;
   }
   .product-page .img-container2 .text-container .main-title {
     padding: 24px 0 24px 0;
